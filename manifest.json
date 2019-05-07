@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "JIRA sprint story task",
+  "version": "0.0.0.0",
+  "description": "",
+  "icons": {},
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/secure/RapidBoard.jspa*",
+        "https://*/secure/RapidBoard.jspa*"
+      ],
+      "js": [
+        "src/js/index.js"
+      ]
+    }
+  ]
+}
